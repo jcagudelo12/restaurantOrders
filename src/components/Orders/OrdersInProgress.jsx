@@ -84,7 +84,7 @@ function OrdersInProgress() {
         <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
           <div className="overflow-hidden">
             <table className="min-w-full text-center text-sm font-light justify-center">
-              <thead className="border-b bg-neutral-800 font-medium text-white dark:border-neutral-500 dark:bg-neutral-900">
+              <thead className="border-b bg-neutral-800 font-medium text-white dark:border-neutral-500 dark:bg-gray-800">
                 <tr>
                   <th scope="col" className=" px-6 py-4">
                     Id
@@ -136,7 +136,7 @@ function OrdersInProgress() {
                     <td className="whitespace-nowrap px-6 py-2">
                     <button
                           type="button"
-                          className="inline-block rounded bg-blue-500 px-6 pb-2 pt-2.5 text-md font-medium uppercase leading-normal text-white"
+                          className="inline-block rounded bg-blue-500 px-4 pb-2 pt-2.5 text-md font-medium uppercase leading-normal text-white"
                         >
                           <Icon css="icon" icon={faEye} />
                         </button>
@@ -149,19 +149,19 @@ function OrdersInProgress() {
                         <button
                           type="button"
                           data-te-toggle="button"
-                          className="inline-block rounded bg-red-500 px-6 pb-2 pt-2.5 text-md font-medium uppercase leading-normal text-white"
+                          className="inline-block rounded bg-red-500 px-4 pb-2 pt-2.5 text-md font-medium uppercase leading-normal text-white"
                         >
                           <Icon css="icon" icon={faBan} />
                         </button>
                         <button
                           type="button"
-                          className="inline-block rounded bg-yellow-500 px-6 pb-2 pt-2.5 text-md font-medium uppercase leading-normal text-white"
+                          className="inline-block rounded bg-yellow-500 px-4 pb-2 pt-2.5 text-md font-medium uppercase leading-normal text-white"
                         >
                           <Icon css="icon" icon={faPen} />
                         </button>
                         <button
                           type="button"
-                          className="inline-block rounded bg-green-500 px-6 pb-2 pt-2.5 text-md font-medium uppercase leading-normal text-white"
+                          className="inline-block rounded bg-green-500 px-4 pb-2 pt-2.5 text-md font-medium uppercase leading-normal text-white"
                         >
                           <Icon css="icon" icon={faCheck} />
                         </button>
